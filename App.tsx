@@ -8,6 +8,7 @@
  * @format
  */
 
+// @ts-nocheck
 import React, {useRef, useState} from 'react';
 import {
   Button,
@@ -117,7 +118,7 @@ const App = () => {
   // };
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <View style={styles.container}>
         <Video
           ref={video}

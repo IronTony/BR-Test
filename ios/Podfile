@@ -1,4 +1,4 @@
-$ExpoUseSources = ["expo-gl-cpp"]
+$ExpoUseSources = ["expo-gl-cpp", 'expo-av']
 
 require File.join(File.dirname(`node --print "require.resolve('expo/package.json')"`), "scripts/autolinking")
 require_relative '../node_modules/react-native/scripts/react_native_pods'
